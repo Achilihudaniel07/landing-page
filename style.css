@@ -1,3 +1,8 @@
 body {
   background-color: darkkhaki;
 }
+
+h1 {
+  color: chartreuse;
+  text-align: center;
+}
