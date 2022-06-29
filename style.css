@@ -1,8 +1,69 @@
-body {
-  background-color: darkkhaki;
+*{
+  box-sizing: border-box;
 }
-
-h1 {
-  color: chartreuse;
-  text-align: center;
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+}
+nav{
+  padding-top: 20px;
+}
+nav ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+nav li{
+  margin: 1.5rem;
+  font-size: 1.2rem;
+}
+.dannavbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dannavbar h1 {
+  font-size: 2.2rem;
+}
+.dannavbar button{
+  background-color:yellow;
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px solid yellow;
+  text-decoration: none;
+  
+}
+.dannavbar button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: yellow;
+  border: 1px solid yellow;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.danpara{
+  width: 60%;
+}
+.danpara h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+.danpara p{
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding-right: 100px;
+}
+.danicons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
